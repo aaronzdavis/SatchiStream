@@ -1,4 +1,6 @@
 {
   "name": "SatchiStream",
-  "displayName": "SatchiStream"
+  "displayName": "SatchiStream",
+  "icon": "./assets/logo.png",
+  "version": "0.0.1"
 }

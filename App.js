@@ -8,6 +8,7 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
+import AudioComponent from './AudioComponent'
 import VideoComponent from './VideoComponent'
 
 export default class App extends Component {
@@ -15,6 +16,7 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <VideoComponent />
+        <AudioComponent />
       </View>
     );
   }
@@ -22,9 +24,7 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#4286f4'
+    backgroundColor: '#4286f4',
+    height: '100%'
   }
 });
